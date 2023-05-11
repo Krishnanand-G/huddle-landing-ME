@@ -114,6 +114,7 @@ nav button{
 #info img{
     height:70%;
     width: 50%;
+    padding-bottom: 6rem;
 }
 
 .infoContent{
@@ -130,4 +131,25 @@ nav button{
 
 .infoImageContainer:nth-of-type(1){
     justify-content: flex-start;
+}
+
+#absoluteSection {
+
+}
+
+#absoluteSection div {
+    border: 2px solid rgb(225, 224, 224);
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+footer {
+    height: 200px;
+    background-color: hsl(192, 100%, 9%);
 }
