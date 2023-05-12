@@ -62,9 +62,6 @@ nav button{
     width: 90%;   
 }
 
-#hero > div div{
-}
-
 .heroContent{
     flex: 4;
     padding: 2rem;
@@ -100,6 +97,7 @@ nav button{
     padding: 4rem;
     width: 90%;
     margin: 0 auto; 
+    padding-bottom: 6rem;
 }
 
 #info > div{
@@ -114,7 +112,6 @@ nav button{
 #info img{
     height:70%;
     width: 50%;
-    padding-bottom: 6rem;
 }
 
 .infoContent{
@@ -133,23 +130,92 @@ nav button{
     justify-content: flex-start;
 }
 
-#absoluteSection {
 
+/* Absolute Section Styles */
+#absoluteSection{
+    position: relative;
 }
 
-#absoluteSection div {
+#absoluteSection div{
     border: 2px solid rgb(225, 224, 224);
     background-color: white;
-    width: 30%;
+    text-align: center;
+    padding: 2rem 3rem;
+    width: 40%;
+    border-radius: 10px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 2rem 3rem;
-    border-radius: 10px;
 }
 
-footer {
-    height: 200px;
-    background-color: hsl(192, 100%, 9%);
+#absoluteSection button{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
 }
+
+/* Footer Styles */
+footer{
+    background-color: hsl(192, 100%, 9%);
+    padding: 8rem 2rem 2rem 2rem;
+}
+
+#moreDetailsContainer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#moreDetailsContainer > div{
+    flex-basis: 20%;
+}
+
+#contactContainer div{
+    display: flex;
+    margin: 10px 0;
+    column-gap: 20px;
+    align-items: flex-start;
+}
+
+.linksContainer{
+    display: flex;
+    align-items: center;
+}
+
+.linksContainer ul{
+    list-style: none;
+}
+
+.linksContainer li{
+    display: block;
+    margin: 1rem 0;
+}
+
+#socialsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+#copyrightText{
+    color: white;
+    margin: 0;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.footerIcon{
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footerIcon img{
+    height: 16px;
+    width: 20px;
+}
+
