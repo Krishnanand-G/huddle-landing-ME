@@ -1,3 +1,3 @@
 #Huddle landing page with alternating feature blocks
 
-(./design/desktop-preview.jpg)
+!(./design/desktop-preview.jpg)
